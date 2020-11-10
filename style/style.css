@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1440px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+} 
+
+.container {
+    max-width: 110rem;
+    margin: 0 auto;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    max-width: 573px;
+    max-height: auto;
+    background: #F8FAFC;
+    border-radius: 25px;
+    padding: 0 30px;
+    padding-top: 40px;
+    margin: 10px;
+}
+
+.cart-container{
+    width: 500px;
+}
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.new {
+    width: 7.1rem;
+    height: 2.6rem;
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: .5rem 2rem .4rem 2rem;
+    margin-top: 9px;
+}
+
+.text {
+    color:#fff;
+    font-size: 14px;
+    line-height: 16.71px;
+}
+
+.image {
+    min-width: 256px;
+    height: 261px;
+    margin-top: 9px;
+}
+.image:hover {
+    transform: scale(1.5);
+    transition: .3s ease-in-out ;
+}
+
+.pantene{
+     position: absolute;
+     right: 42.5%;
+}
+.libra {
+    width: 46.08px;
+    height: 46.08px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.libra img:last-child {
+    display: none;
+}
+
+
+.libra.click img:last-child{
+    display: block;
+}
+.libra.click img:first-child {
+    display: none;
+}
+
+
+
+.title {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.title-span {
+    width: 483px;
+    margin: 0 auto;
+    font-size: 15.5px;
+    text-align: left;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 15px;
+    margin-bottom: 16px;
+    
+}
+.options span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.options-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.select-current{
+    font-size: 17px;
+    padding: 5px;
+}
+.select-options{
+    width: 258px;
+    background: #fff;
+    border-radius: 15px;
+}
+.select-item  {
+   padding: 5px;
+}
+.select-item:hover {
+    background: #F3F8FC;
+    border-radius: 30px;
+}
+.select-item p{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    padding: 5px;
+}
+
+.options.active .select-icon{
+    transition: all .7s  ease-in-out;
+    transform: rotate(180deg);
+}
+.select-body{
+    padding: 10px;
+    display: none;
+}
+.options.active .select-body{
+    display: block;
+}
+
+.form_radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_radio_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+
+.form_radio_btn input[type=checkbox] {
+	display: none;
+}
+
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+    user-select: none;
+    width: 20.54px;
+    height: 20.54px;
+    background: #DEDEDE;
+}
+
+.form_radio_btn input[type="checkbox"]:checked + label {
+    border: 3px solid #DEDEDE;
+	background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    border-radius: 6px;
+
+}
+
+.form_radio_btn span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.order-btn {
+    display: flex;
+    justify-content: space-between;
+    width:425px;
+    margin-bottom: 37px;
+}
+
+.plus {
+    cursor: pointer;
+}
+.minus{
+    cursor: pointer;
+}
+.number {
+    width: 15px;
+}
+
+
+.click-btn{
+    width: 92px;
+    height: 39px;
+    background: #E2E9F0;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.buy-btn{
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    border-radius: 30px;
+    border: none;
+    width: 302px;
+    height: 39px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.buy-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(261.65deg, #E9B32C -3.95%, #BF911A 109.44%);
+}
+
+.buy-btn.click {
+    background: linear-gradient(261.65deg, #FFD773 -3.95%, #E2B645 109.44%);
+}
+
