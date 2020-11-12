@@ -5,5 +5,4 @@ Change the image when hovering, change the image in the upper right corner when 
 Java Script is used to select the quantity of goods in the basket, click on the button and to select the color of the goods.
 
 
-
 👉 Demo: https://yaroschukb.github.io/SySale-Test/
